@@ -21,8 +21,8 @@
   cursor: pointer;
   width: 200px;
   height: 50px;
-  background: #03045e;
-  color: #f9ead1;
+  background: #f3ef17;
+  color: #023047;
   font-family: 'Inter';
   font-size: 25px;
   font-weight: 600;
@@ -62,12 +62,12 @@ nav {
 
 .header-title {
   font-family: 'Gluten';
-  text-shadow: 3px 2px #5d4904;
+  text-shadow: 3px 2px #c9b25e;
   margin-left: 2vh;
   position: relative;
   bottom: 25px;
   font-size: 4rem;
-  color:#ffea00;
+  color:#f3ef17;
 }
 
 .header-title-mid {
