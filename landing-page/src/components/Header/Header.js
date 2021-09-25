@@ -4,7 +4,14 @@ function Header() {
     return (
         <div>
             <nav>
-                <h1>Net<span>Navigator</span></h1>
+                <h1 className="header-title">
+                    <span className="header-title-left">
+                        net
+                    </span>
+                    <span className="header-title-right">
+                        navigator
+                    </span>
+                </h1>
             </nav>
         </div>
     )

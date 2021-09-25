@@ -1,21 +1,78 @@
 .hero-layout {
-  background-color: purple;
   position: relative;
   margin-top: 10vh;
 
 }
 
 .hero-title {
-  background-color: brown;
+  font-size: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero-btn {
-  background-color: green;
+.hero-btn-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10vh;
+  margin-top: 0.5rem;
+}
+
+.hero-btn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  background: #ff9b00;
+  color: #f9ead1;
+  font-family: 'Inter';
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  border-radius: 15px;
+  padding: 0px;
+  overflow: hidden;
+  outline: none;
+  box-shadow: 0 0 60px 10px rgba(0,0,0,0.2);
+  transform: scale(1);
+  transition: 
+    box-shadow 0.4s, 
+    transform 0.4s;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+}
+
+.hero-btn:active {
+  box-shadow: none;
+  transform: scale(0.95);
+}
+
+.hero-desc {
+  position: relative;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: #6c757d;
+  text-align: center;
+}
+
+.hero-desc-arrow {
+  color:#ff9b00;
+}
+
+nav {
+  margin-left: 1.5vh;
+}
+
+.header-title {
+  font-family: 'Montserrat Alternates';
+  text-shadow: 2px 2px #c1c1c1;
+}
+
+.header-title-left {
+  color: #023e7d;
+}
+
+.header-title-right {
+  color: #0466c8;
 }
