@@ -4,6 +4,8 @@
 
 Navi is a Google Chrome extension that helps day-to-day users like you and me understand the contents of a website. This is supposed to take the HTML elements that generally represents the idea and create a summary out of it! 
 
+![Landing-Page-GIF](landing-page/public/GIFs/landing-page-gif.gif)
+
 All you would need to do is:
 
 - Highlight the text you want to understand
