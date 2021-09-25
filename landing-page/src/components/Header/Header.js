@@ -5,12 +5,7 @@ function Header() {
         <div>
             <nav>
                 <h1 className="header-title">
-                    <span className="header-title-left">
-                        net
-                    </span>
-                    <span className="header-title-right">
-                        navigator
-                    </span>
+                    navi
                 </h1>
             </nav>
         </div>

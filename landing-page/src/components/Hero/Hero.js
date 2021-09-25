@@ -38,7 +38,8 @@ function Hero() {
                     <motion.button 
                     className="hero-btn"
                     animate={{ y: [600, 0] }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.2 }}
+                    whileHover={{ scale: 1.1 }}
                     >
                         Install Now
                     </motion.button>
