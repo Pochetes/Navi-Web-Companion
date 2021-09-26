@@ -15,6 +15,38 @@ All you would need to do is:
 
 After some time you would see a chat-bot interface display on the screen returning a summarization of the text!
 
+## File Structure
+```
+├──chrome-extension
+│   │
+│   ├──build        
+│   ├──.node_modules
+│   ├──public
+│   ├──src
+│   ├──background.js
+│   ├──index.html
+│   ├──manifest.json
+│   ├──package-lock.json
+│   ├──package.json
+│   ├──styles.css
+│   ├──tsconfig.json
+│   ├──webpack.config.js
+│   │
+├──landing-page
+│   │
+│   ├──.node_modules
+│   ├──public
+│   ├──src
+│   ├──.gitignore
+│   ├──package-lock.json
+│   ├──package.json
+│   ├──yarn.lock
+│   │
+├──.gitignore
+│   │
+├──README.md
+```
+
 ## But ... How does it Work?
 
 Navi uses **Natural Language Processing** (or NLP for short) to take text and give meaning to it.
