@@ -2,7 +2,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # Navi - AI Web Companion
 
-Navi is a Google Chrome extension that helps day-to-day users like you and me understand the contents of a website. This is supposed to take the HTML elements that generally represents the idea and create a summary out of it! 
+Navi is a Google Chrome extension that helps day-to-day users like you and me understand the contents of a website. This is supposed to take the HTML elements that generally represents the data and create a summary out of it! 
 
 ![Landing-Page-GIF](landing-page/public/GIFs/landing-page-gif.gif)
 
@@ -13,7 +13,7 @@ All you would need to do is:
 
 **Done!**
 
-After some time you would see a chat-bot interface display on the screen returning a summarization of the text!
+After some time you would see a pop-up on the screen returning a summarization of the text!
 
 ## File Structure
 ```
