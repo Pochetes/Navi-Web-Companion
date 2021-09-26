@@ -1,12 +1,18 @@
 const htmlLiteral = `
     <div id="navi-summary-popup">
         <div class="navi-summary-output-container">
-            <h1></h1>
+            <div id="closeButton"><span>&#10006<span></div>
+            <h1>Summary</h1>
             <p id="navi-summary-output"></p>
         </div>
         <div id="navi-summary-backdrop"></div>
     </div>
 `;
+
+const hide = () => {
+    document.getElementById("navi-summary-popup").style.display = "none";
+    document.body.classList.remove("prevent-scroll");
+}
 
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     if (document.getElementById("navi-summary-popup") === null) {
@@ -17,9 +23,8 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
 
         document.body.insertAdjacentHTML("beforeend", htmlLiteral);
 
-        document.getElementById("navi-summary-backdrop").addEventListener("click", () => {
-            document.getElementById("navi-summary-popup").style.display = "none";
-        });
+        document.getElementById("closeButton").addEventListener("click", hide);
+        document.getElementById("navi-summary-backdrop").addEventListener("click", hide);
     }
     else
     {
@@ -27,4 +32,5 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     }
 
     document.getElementById("navi-summary-output").innerText = msg.content;
+    document.body.classList.add("prevent-scroll");
 });
