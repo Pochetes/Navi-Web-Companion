@@ -1,6 +1,6 @@
 {
     "name": "Navi",
-    "description": "",
+    "description": "Navi is a Google Chrome extension that helps day-to-day users like you and me understand the contents of a website. This is supposed to take text from a website and create a summary out of it!",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
