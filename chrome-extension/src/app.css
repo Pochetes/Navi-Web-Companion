@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten&family=Inter&display=swap");
+.App {
+  font-family: "Inter";
+  text-align: center;
+}
+
+body {
+  background-color: #d5ebf5;
+  color: #023047;
+}
+
+.header-title {
+  font-family: "Gluten", "Inter";
+  text-shadow: 3px 2px #c9b25e;
+  display: flex;
+  justify-content: center;
+  color: #f3ef17;
+  font-size: 60px;
+  margin: 0;
+}
+
+.header-desc {
+  color: #6c757d;
+  position: relative;
+  bottom: 20px;
+}
+
+.header-elems {
+  display: flex;
+  justify-content: center;
+}
+
+.header-version {
+  font-size: 15px;
+  position: relative;
+  left: 1rem;
+  top: 0.5rem;
+}
+
+.github-social {
+  width: 7vh;
+}
+
+.striped-circle {
+  z-index: -1;
+  position: relative;
+  left: 8rem;
+  top: 42rem;
+  width: 200px;
+  height: 200px;
+}
+
+.striped-star {
+  z-index: -1;
+  position: relative;
+  left: 2rem;
+  top: 10rem;
+  width: 200px;
+  height: 200px;
+}
+
+.rect {
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 400px;
+}
