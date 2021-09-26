@@ -6,5 +6,7 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-    chrome.tabs.sendMessage(tab.id, { content: summaryBot.run(info.selectionText, 10, false) });
+    if (typeof info.selectionText === "string") {
+        chrome.tabs.sendMessage(tab.id, { content: summaryBot.run(info.selectionText, 1, false) });
+    }
 });
