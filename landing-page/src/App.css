@@ -73,3 +73,33 @@ nav {
 .header-title-mid {
   font-size: 5.2rem;
 }
+
+.striped-shapes {
+  z-index: -1;
+}
+
+.striped-circle {
+  position: absolute;
+  left: 20rem;
+  bottom: 5rem;
+  width: 300px;
+  height: 300px;
+}
+
+.striped-star {
+  position: absolute;
+  left: 85rem;
+  bottom: 20rem;
+  width: 300px;
+  height: 300px;
+}
+
+.something {
+  background-color: black;
+  border-radius: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+}

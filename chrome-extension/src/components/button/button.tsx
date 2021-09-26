@@ -19,7 +19,7 @@ export type TextColor = ColorPalette | CSS.Property.Color;
 export type ContrastColor = Contrast | CSS.Property.BackgroundColor;
 
 //  TextButton input properties
-export interface TextButtonProp extends React.HTMLAttributes<HTMLDivElement> {
+export interface TextButtonProps extends React.HTMLAttributes<HTMLDivElement> {
     // Required | Content of the button. Accepts a string value.
     text: string;
 
@@ -110,7 +110,7 @@ let transitionFinished: boolean;
 let button: HTMLDivElement;
 
 //  TextButton Component
-export const TextButton = (props: TextButtonProp): JSX.Element => {
+export const TextButton = (props: TextButtonProps): JSX.Element => {
     const style: Properties = {};
     const computedBackgroundColor: BackgroundColor =
         props.backgroundColor ?? ColorPalette.Primary;
